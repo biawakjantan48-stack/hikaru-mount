@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HIKARU MOUNT | Roblox Map</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", sans-serif;
+      }
+
+      body {
+        background: #000;
+        color: #fff;
+      }
+
+      .hero {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        /* BACKGROUND GAMBAR + GRADIENT GELAP */
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
+          url("hikaru-mount.jfif");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .content {
+        max-width: 900px;
+        animation: fadeIn 2s ease;
+      }
+
+      h1 {
+        font-size: 70px;
+        letter-spacing: 8px;
+        margin-bottom: 20px;
+        background: linear-gradient(90deg, #e6c97a, #ffffff, #e6c97a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      h2 {
+        font-size: 26px;
+        font-weight: 300;
+        opacity: 0.9;
+        margin-bottom: 50px;
+      }
+
+      .features {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        flex-wrap: wrap;
+      }
+
+      .card {
+        background: rgba(0, 0, 0, 0.6);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        padding: 25px;
+        width: 230px;
+        border-radius: 18px;
+        backdrop-filter: blur(10px);
+        transition: 0.4s;
+      }
+
+      .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 0 35px rgba(230, 201, 122, 0.4);
+      }
+
+      .card h3 {
+        color: #e6c97a;
+        margin-bottom: 10px;
+      }
+
+      .card p {
+        font-size: 14px;
+        opacity: 0.85;
+      }
+
+      .cta {
+        margin-top: 60px;
+      }
+
+      .cta a {
+        text-decoration: none;
+        padding: 16px 45px;
+        border-radius: 50px;
+        background: linear-gradient(90deg, #e6c97a, #ffd966);
+        color: #000;
+        font-weight: bold;
+        letter-spacing: 3px;
+        transition: 0.4s;
+      }
+
+      .cta a:hover {
+        transform: scale(1.08);
+        box-shadow: 0 0 45px rgba(255, 217, 102, 0.8);
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(40px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="content">
+        <h1>HIKARU MOUNT</h1>
+        <h2>Gunung Hikaru tidak memintamu untuk bertarung dengan alam,Rintangan bukan penghalang, melainkan genggaman tangan yang menuntun tanganu perlahan menuju summit</h2>
+
+        <div class="features">
+          <div class="card">
+            <h3>🏔️ Cinematic View</h3>
+            <p>Pemandangan gunung megah dengan atmosfer epik.</p>
+          </div>
+          <div class="card">
+            <h3>✨ Premium Atmosphere</h3>
+            <p>Nuansa tenang, elegan, dan terasa mahal.</p>
+          </div>
+          <div class="card">
+            <h3>🎮 Open Exploration</h3>
+            <p>Sempurna untuk roleplay dan cinematic shot.</p>
+          </div>
+        </div>
+
+        <div class="cta">
+          <a href="https://www.roblox.com/share?code=1cc2319affa6bd419003fa3b11d09e0e&type=ExperienceDetails&stamp=1769762857102" target="_blank">ENTER HIKARU</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
